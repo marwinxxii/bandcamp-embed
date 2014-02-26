@@ -57,12 +57,12 @@ class StandardLayout(Layout):
 
 class MinimalLayout(Layout):
     SIZE = 'large'
-    def __init__(self, theme):
+    def __init__(self):
         Layout.__init__(self, self.SIZE, width=350, height=350)
 
 class HorizontalLayout(Layout):
     SIZE = 'medium'
-    def __init__(self, artwork, theme):
+    def __init__(self, artwork):
         self.artwork = artwork
         Layout.__init__(self, self.SIZE, width='100%', height=120)
 
