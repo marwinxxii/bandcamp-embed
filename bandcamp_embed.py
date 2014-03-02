@@ -1,3 +1,5 @@
+__version__ = '0.1.0'
+
 COMMON_COLORS = {
     'blue': '0687f5',
     'orange': 'e99708',
