@@ -30,8 +30,8 @@ class LightTheme(Theme):
 
 class DarkTheme(Theme):
     COLORS = dict(COMMON_COLORS, white=COLOR_WHITE)
-    def __init__(sekf, links_color):
-        Theme__init__(self, self.COLORS, COLOR_DARK, links_color)
+    def __init__(self, links_color):
+        Theme.__init__(self, self.COLORS, COLOR_DARK, links_color)
 
 class Layout:
     def __init__(self, size, width, height):
